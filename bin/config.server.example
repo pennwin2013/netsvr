@@ -1,0 +1,41 @@
+# 服务端口配置
+YKT.Endpoints=tcp -p 12000:tcp -p 10000
+# ICE 线程池线程数
+Ice.ThreadPool.Server.Size=20
+# ICE 线程池线最大程数
+Ice.ThreadPool.Server.SizeMax=50
+# ICE 请求包最大大小 单位 K
+Ice.MessageSizeMax=20480
+# 数据库连接配置，暂无使用
+Oracle.ConnectInfo=ykt_cur/kingstar@orcl
+
+################################################################
+# 消息队列参数
+# 队列服务端口号
+queue.port = 10010
+
+################################################################
+# 服务单元表
+queue.list = core
+core.queue.desc = 一卡通核心平台服务
+# 业务单元数量
+core.queue.processcount = 1
+# 业务单元最大数量
+core.queue.maxprocesscount = 10
+# 业务进程名称
+core.queue.process = worker.exe
+# 业务单元服务号
+core.queue.servciecode = 1000
+# 业务队列最大数量
+core.queue.maxtask = 1000
+# 业务队列最大内存大小, 单位 MByte
+core.queue.maxmem = 5
+
+############################################
+# 银行服务队列
+# queue.list = bank
+bank.queue.desc = 圈存服务
+bank.queue.processcount = 1
+bank.queue.process = bank.exe
+
+

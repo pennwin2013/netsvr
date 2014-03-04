@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netsvr", "src\netsvr.vcproj", "{4827BA16-17D2-46CA-AAC7-B9643FBD2B02}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0018476E-F0F7-48D7-8CFB-062E3755692E} = {0018476E-F0F7-48D7-8CFB-062E3755692E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_svr_sess", "test_svr_sess\test_svr_sess.vcproj", "{938DE788-C823-4CE2-960F-66B5CE09E637}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0018476E-F0F7-48D7-8CFB-062E3755692E} = {0018476E-F0F7-48D7-8CFB-062E3755692E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_message_block", "test_message_block\test_message_block.vcproj", "{5593CE43-68F5-4BDF-9F8B-6738AED49C40}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0018476E-F0F7-48D7-8CFB-062E3755692E} = {0018476E-F0F7-48D7-8CFB-062E3755692E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testclient", "testclient\testclient.vcproj", "{90BD9E7B-CB3A-4EA0-A2A6-BD54E21E2B65}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0018476E-F0F7-48D7-8CFB-062E3755692E} = {0018476E-F0F7-48D7-8CFB-062E3755692E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testserver", "testserver\testserver.vcproj", "{FD4193E3-B3D1-4476-AA17-E81D47FB71EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0018476E-F0F7-48D7-8CFB-062E3755692E} = {0018476E-F0F7-48D7-8CFB-062E3755692E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fdxsmsglib", "fdxsmsglib\fdxsmsglib.vcproj", "{0018476E-F0F7-48D7-8CFB-062E3755692E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1F01BD02-D4B3-49CF-BDBE-8CA434C66718}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4827BA16-17D2-46CA-AAC7-B9643FBD2B02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4827BA16-17D2-46CA-AAC7-B9643FBD2B02}.Debug|Win32.Build.0 = Debug|Win32
+		{4827BA16-17D2-46CA-AAC7-B9643FBD2B02}.Release|Win32.ActiveCfg = Release|Win32
+		{4827BA16-17D2-46CA-AAC7-B9643FBD2B02}.Release|Win32.Build.0 = Release|Win32
+		{938DE788-C823-4CE2-960F-66B5CE09E637}.Debug|Win32.ActiveCfg = Debug|Win32
+		{938DE788-C823-4CE2-960F-66B5CE09E637}.Debug|Win32.Build.0 = Debug|Win32
+		{938DE788-C823-4CE2-960F-66B5CE09E637}.Release|Win32.ActiveCfg = Release|Win32
+		{938DE788-C823-4CE2-960F-66B5CE09E637}.Release|Win32.Build.0 = Release|Win32
+		{5593CE43-68F5-4BDF-9F8B-6738AED49C40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5593CE43-68F5-4BDF-9F8B-6738AED49C40}.Debug|Win32.Build.0 = Debug|Win32
+		{5593CE43-68F5-4BDF-9F8B-6738AED49C40}.Release|Win32.ActiveCfg = Release|Win32
+		{5593CE43-68F5-4BDF-9F8B-6738AED49C40}.Release|Win32.Build.0 = Release|Win32
+		{90BD9E7B-CB3A-4EA0-A2A6-BD54E21E2B65}.Debug|Win32.ActiveCfg = Debug|Win32
+		{90BD9E7B-CB3A-4EA0-A2A6-BD54E21E2B65}.Debug|Win32.Build.0 = Debug|Win32
+		{90BD9E7B-CB3A-4EA0-A2A6-BD54E21E2B65}.Release|Win32.ActiveCfg = Release|Win32
+		{90BD9E7B-CB3A-4EA0-A2A6-BD54E21E2B65}.Release|Win32.Build.0 = Release|Win32
+		{FD4193E3-B3D1-4476-AA17-E81D47FB71EE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD4193E3-B3D1-4476-AA17-E81D47FB71EE}.Debug|Win32.Build.0 = Debug|Win32
+		{FD4193E3-B3D1-4476-AA17-E81D47FB71EE}.Release|Win32.ActiveCfg = Release|Win32
+		{FD4193E3-B3D1-4476-AA17-E81D47FB71EE}.Release|Win32.Build.0 = Release|Win32
+		{0018476E-F0F7-48D7-8CFB-062E3755692E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0018476E-F0F7-48D7-8CFB-062E3755692E}.Debug|Win32.Build.0 = Debug|Win32
+		{0018476E-F0F7-48D7-8CFB-062E3755692E}.Release|Win32.ActiveCfg = Release|Win32
+		{0018476E-F0F7-48D7-8CFB-062E3755692E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5593CE43-68F5-4BDF-9F8B-6738AED49C40} = {1F01BD02-D4B3-49CF-BDBE-8CA434C66718}
+		{90BD9E7B-CB3A-4EA0-A2A6-BD54E21E2B65} = {1F01BD02-D4B3-49CF-BDBE-8CA434C66718}
+		{FD4193E3-B3D1-4476-AA17-E81D47FB71EE} = {1F01BD02-D4B3-49CF-BDBE-8CA434C66718}
+		{938DE788-C823-4CE2-960F-66B5CE09E637} = {1F01BD02-D4B3-49CF-BDBE-8CA434C66718}
+	EndGlobalSection
+EndGlobal
